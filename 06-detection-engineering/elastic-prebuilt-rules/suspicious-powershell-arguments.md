@@ -14,21 +14,20 @@ installation leveraging PowerShell.
 
 ## MITRE ATT&CK
 
-[[threat]]
-framework = "MITRE ATT&CK"
-[[threat.technique]]
-id = "T1059"
-name = "Command and Scripting Interpreter"
-reference = "https://attack.mitre.org/techniques/T1059/"
-[[threat.technique.subtechnique]]
-id = "T1059.001"
-name = "PowerShell"
-reference = "https://attack.mitre.org/techniques/T1059/001/"
+**Tactic**
 
-[threat.tactic]
-id = "TA0002"
-name = "Execution"
-reference = "https://attack.mitre.org/tactics/TA0002/"
+- **Execution** — TA0002  
+  https://attack.mitre.org/tactics/TA0002/
+
+**Technique**
+
+- **Command and Scripting Interpreter** — T1059  
+  https://attack.mitre.org/techniques/T1059/
+
+**Sub-technique**
+
+- **PowerShell** — T1059.001  
+  https://attack.mitre.org/techniques/T1059/001/
 
 ## Detection Logic
 
